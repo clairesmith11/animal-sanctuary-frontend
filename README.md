@@ -57,7 +57,7 @@ Environment variable: REACT_APP_URL=https://animal-sanctuary.herokuapp.com/api
 
 Click [HERE](https://pennyssanctuary.web.app/) to visit a live demo site hosted on Firebase!
 
-### Author info
+### Author
 ___
 This is an original app coded from scratch by ME, Claire Smith, a self-taught web developer in Lafayette, Indiana. Much thanks to some great teachers on Udemy: Jonas Schmedtmann and Maximilian Schwarzmuller of Academind for the confidence and techniques!
 
