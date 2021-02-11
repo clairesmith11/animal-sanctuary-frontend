@@ -6,7 +6,7 @@ Modern, responsive demo website created for a fictional dog adoption organizatio
 - [Technologies](#Technologies)
 - [Features](#Features)
 - [Setup](#Setup)
-- [Author info](#Author info)
+- [Author](#Author)
 
 ### Introduction
 ___
