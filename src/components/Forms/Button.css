@@ -1,0 +1,29 @@
+.btn {
+  background-color: #5c164e;
+  color: #fff;
+  border: none;
+  padding: 1rem;
+  border-radius: 5px;
+  display: block;
+  width: 150px;
+  transition: all 0.2s ease-in;
+  cursor: pointer;
+  margin: 0.5rem auto;
+}
+
+.btn:hover {
+  transform: scale(0.98);
+}
+
+.btn:disabled,
+.btn:hover:disabled,
+.btn:active:disabled {
+  background: #ccc;
+  color: #979797;
+  border-color: #ccc;
+  cursor: not-allowed;
+}
+
+.btn.danger {
+  background-color: red;
+}

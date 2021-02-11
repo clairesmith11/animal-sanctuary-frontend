@@ -1,0 +1,44 @@
+.image-upload {
+  width: 50%;
+}
+
+.image-upload__browse {
+  width: 150px;
+}
+
+.image-upload__preview {
+  width: 10rem;
+  height: 8rem;
+  border: 1px dashed black;
+  margin: 1rem auto;
+}
+
+.image-upload__preview-img {
+  width: 10rem;
+  height: 8rem;
+  object-fit: cover;
+}
+
+.image-upload-preview__text {
+  text-align: center;
+}
+
+.image-upload.show {
+  display: block;
+}
+
+.image-upload.hide {
+  display: none;
+}
+
+.image-upload__btn {
+  width: 10rem;
+  padding: 0.5rem;
+  background-color: black;
+}
+
+@media (max-width: 400px) {
+  .image-upload {
+    grid-row: 2 / 3;
+  }
+}

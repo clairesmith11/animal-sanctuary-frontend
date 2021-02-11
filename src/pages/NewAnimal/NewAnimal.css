@@ -1,0 +1,25 @@
+.new-animal__heading {
+  text-align: center;
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: #5c164e;
+  border-bottom: 2px solid #5c164e;
+}
+.form textarea {
+  border-radius: 5px;
+  width: 90%;
+  font-family: sans-serif;
+}
+
+.form p {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 450px) {
+  .form {
+    width: 75vw;
+  }
+  .new-animal__heading {
+    font-size: 2rem;
+  }
+}

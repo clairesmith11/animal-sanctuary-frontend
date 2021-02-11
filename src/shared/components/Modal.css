@@ -1,0 +1,80 @@
+.modal {
+  height: 30vh;
+  width: 35vw;
+  position: absolute;
+  top: 42%;
+  left: 42%;
+  background-color: #eee;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+  z-index: 200;
+}
+
+.modal__message {
+  padding: 1rem;
+}
+
+.modal__heading {
+  width: 100%;
+  height: 3.5rem;
+  padding-top: 0.2rem;
+  padding-bottom: 1rem;
+  color: #eee;
+  text-align: center;
+  background-color: #5c164e;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
+
+.modal__message p {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.anim-appear {
+  transform: translateY(-10rem);
+  opacity: 0;
+}
+
+.anim-appear-done {
+  transform: translateY(0);
+  opacity: 1;
+  transition: all 200ms ease-in;
+}
+
+.anim-leave {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.anim-leave-done {
+  transform: translateY(-10rem);
+  opacity: 0;
+  transition: all 200ms ease-in;
+}
+
+@media (max-width: 900px) {
+  .modal {
+    width: 50vw;
+    left: 38%;
+    top: 38%;
+  }
+}
+
+@media (max-width: 600px) {
+  .modal {
+    width: 70vw;
+    left: 32%;
+    top: 35%;
+  }
+}
+
+@media (max-width: 400px) {
+  .modal {
+    width: 90vw;
+    left: 28%;
+    top: 35%;
+  }
+}

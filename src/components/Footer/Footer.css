@@ -1,0 +1,38 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2rem;
+  width: 90%;
+  margin: auto;
+  padding: 15px;
+  background-color: #5c164e;
+  color: #fff;
+}
+
+.footer__about-us {
+  width: 50%;
+}
+
+.footer__icons i {
+  margin: 0.5rem;
+  transition: all 0.2s ease-in;
+  cursor: pointer;
+}
+
+.footer__icons i:hover {
+  transform: scale(0.97);
+}
+
+@media (max-width: 700px) {
+  .footer {
+    width: 100%;
+    padding: 0;
+    position: relative;
+    justify-content: space-evenly;
+  }
+  .footer__icons {
+    position: absolute;
+    bottom: 5%;
+    right: 10%;
+  }
+}

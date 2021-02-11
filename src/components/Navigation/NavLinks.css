@@ -1,0 +1,50 @@
+.nav-link {
+  margin: 10px;
+  text-decoration: none;
+  color: #ccc;
+}
+
+.larger {
+  font-size: 1.5rem;
+}
+
+.drawer-toggle {
+  display: none;
+}
+
+.nav-link:hover {
+  border-bottom: 2px solid #ccc;
+}
+
+.logout-btn {
+  background-color: #ccc;
+  width: 100px;
+  text-transform: uppercase;
+  color: #5c164e;
+  display: inline-block;
+}
+
+@media (max-width: 900px) {
+  .larger {
+    font-size: 1.2rem;
+  }
+  .hideable {
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    width: 100px;
+  }
+}
+
+@media (max-width: 700px) {
+  .large-screen,
+  .hideable {
+    display: none;
+  }
+  .drawer-toggle {
+    display: block;
+    margin-right: 3rem;
+  }
+  .drawer-toggle:active {
+    transform: scale(0.97);
+  }
+}

@@ -1,0 +1,38 @@
+.search-bar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem auto 3rem auto;
+}
+
+.search-bar__filter {
+  border-radius: 5px;
+  padding: 0.5rem;
+  margin-left: 1rem;
+}
+
+.search-bar__input {
+  width: 40rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  outline: none;
+  margin: 1rem;
+}
+
+.search-bar__btn {
+  width: 10rem;
+  margin: 0;
+}
+
+@media (max-width: 700px) {
+  .search-bar {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 1rem;
+  }
+  .search-bar__input {
+    width: 80vw;
+    margin: 0;
+  }
+}

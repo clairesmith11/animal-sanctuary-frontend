@@ -1,0 +1,59 @@
+.form {
+  grid-row: 4 /5;
+  grid-column: 1 / 3;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  margin: auto;
+}
+
+.form h2 {
+  color: #5c164e;
+  text-align: center;
+  font-size: 1.7rem;
+  margin-bottom: 2rem;
+}
+
+label {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0;
+  display: block;
+}
+
+.form-input-normal {
+  width: 85%;
+  padding: 5px;
+  border-radius: 5px;
+  outline: none;
+  margin-bottom: 2rem;
+}
+
+.form__radio-btns {
+  display: flex;
+}
+
+.form__radio-btns input {
+  display: block;
+  width: 1rem;
+  margin-right: 1rem;
+}
+
+.form__radio-btns label:first-of-type {
+  margin-right: 5rem;
+}
+
+.invalid {
+  border: 1px solid red;
+}
+
+.form-template {
+  width: 100%;
+}
+
+@media (max-width: 400px) {
+  .application-form {
+    width: 80%;
+  }
+}

@@ -1,0 +1,17 @@
+.user-overview {
+  width: 40vw;
+  height: 60vh;
+  background-image: url('../../img/logo-animal-sanctuary-transparent.png');
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: right;
+  border-radius: 5px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+@media (max-width: 700px) {
+  .user-overview {
+    width: 80vw;
+  }
+}
